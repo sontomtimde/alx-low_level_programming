@@ -3,12 +3,12 @@
 /**
  * print_last_digit - Prints the last digit of a number
  *
- * @: The int to extract the last digit from
+ * @n: The int to extract the last digit from
  *
  * Return: Value of the last digit
  *
  */
-int print_last_digit(int 10)
+int print_last_digit(int n)
 {
 	int a;
 
@@ -18,6 +18,6 @@ int print_last_digit(int 10)
 	if (a < 0)
 		a = -a;
 
-	putchar(a + '0');
+	_putchar(a + '0');
 	return (a);
 }
