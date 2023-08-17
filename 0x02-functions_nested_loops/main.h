@@ -14,3 +14,4 @@ void print_alphabet(void);
  int _islower(int c);
  void jack_bauer(void);
  void jack_bauer(void);
+ int add(int, int);
