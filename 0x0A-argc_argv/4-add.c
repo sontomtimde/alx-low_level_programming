@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 			{
 				if (e[k] < 48 || e[k] > 57)
 				{
-					printf("Errow\n");
+					printf("Error\n");
 					return (1);
 				}
 			}
