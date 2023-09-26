@@ -3,8 +3,8 @@
 /**
  * listint_len - Calculate number of elements in linked list.
  * @h: The pointer to head of linked list.
- * 
- * Return: The number of elements
+ * * Return: The number of elements
+ *
  */
 size_t listint_len(const listint_t *h)
 {
